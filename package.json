@@ -1,0 +1,26 @@
+{
+  "name": "netlify-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "netlify-lambda": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve localFunctions",
+    "build:lambda": "netlify-lambda build localFunctions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jvymvn/netlify-fun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jvymvn/netlify-fun/issues"
+  },
+  "homepage": "https://github.com/Jvymvn/netlify-fun#readme"
+}
